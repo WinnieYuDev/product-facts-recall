@@ -3,7 +3,7 @@
 ![alt text](image-1.png)
 
 # Description
-This website enables user to see if one of the food products they have has been recalled, other product details, and a nutriscore
+This website enables user to look up if a product has been recalled and catch up on recent food recall news
 
 ## How It's Made:
 Tech used: 
