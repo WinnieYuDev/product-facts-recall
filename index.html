@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Product & Recall Checker</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Food Product & Recall Checker</h1>
+    <p>Search for food products and view recent recalls in the U.S.</p>
+  </header>
+
+  <main class="container">
+    <section class="search-panel">
+      <div class="search-box">
+        <input type="text" id="productInput" placeholder="Enter product name or barcode e.g Nutella">
+        <button id="searchButton">Search</button>
+      </div>
+      <section id="searchSection"></section>
+      <ul id="productResults"></ul>
+    </section>
+
+    <section class="news-panel">
+      <h2>Recent Food Recall News</h2>
+      <ul id="recallNewsList"></ul>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+<!-- Citation:
+Guidance in code syntax or code debug from Google AI Overview, Co-Pilot Suggestions, StackOverflow
+Referenced from Tutorial - https://www.youtube.com/watch?v=b5rjEW-_6po and https://www.youtube.com/watch?v=G7XJRLaq2Cw -->

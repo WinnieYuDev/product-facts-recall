@@ -1,22 +1,27 @@
-# 📊 Project: Complex API 
+# Product Nutriscore and Recall Lookup 
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+![alt text](image.png)
 
-### How to submit your code for review:
+# Description
+This website enables user to see if one of the food products they have has been recalled, other product details, and a nutriscore
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
+Tech used: 
+- HTML
+- CSS
+- JavaScript
+- API
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Lessons Learned:
+- How to integrate API database into JS
+
+## Notes
+- Would like to commit better styling to website
+
+## Future Updates
+- Adding an image search or barcode scan option
+
+#### API Used
+- Open Food Facts :  https://www.fsis.usda.gov/fsis/api/recall/v/1 
+- FSIS Food Recall : https://world.openfoodfacts.net/api/v2/product/3017624010701?fields=product_name,nutriscore_data
+
