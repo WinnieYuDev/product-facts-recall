@@ -11,7 +11,7 @@
 /******************************************
 /* LAYOUT
 /******************************************/
-html, body {
+body {
     font-family: Arial, sans-serif;
     background-color: rgba(10, 35, 80, 0.85); 
     color: rgb(30, 30, 30);
@@ -129,6 +129,19 @@ main.container {
     color: rgb(80, 80, 80);
 }
 
+.recall-reason{
+    color:red;
+}
+
+.recall-title{
+    color:rgb(230, 127, 11);
+    text-decoration: underline;
+}
+
+footer p {
+    color:white;
+    padding:20px;
+}
 /******************************************
 /* ADDITIONAL STYLING
 /******************************************/

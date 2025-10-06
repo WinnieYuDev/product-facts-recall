@@ -86,6 +86,11 @@ function loadRecallNews() {
             let locationDiv = document.createElement("div");
             locationDiv.className = "recall-location";
             locationDiv.textContent = locationText;
+        
+        // create reason element
+            let reasonDiv = document.createElement("div");  // <-- NEW
+            reasonDiv.className = "recall-reason";
+            reasonDiv.textContent = "Reason: " + reasonText        
 
         // create div element for each recall date
             let dateDiv = document.createElement("div");
@@ -95,6 +100,7 @@ function loadRecallNews() {
         // append to parent
             li.appendChild(titleDiv);
             li.appendChild(locationDiv);
+            li.appendChild(reasonDiv)
             li.appendChild(dateDiv);
             recallNewsList.appendChild(li);
         }
