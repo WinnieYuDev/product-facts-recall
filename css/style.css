@@ -141,6 +141,7 @@ main.container {
 footer p {
     color:white;
     padding:20px;
+    text-align: center;
 }
 /******************************************
 /* ADDITIONAL STYLING

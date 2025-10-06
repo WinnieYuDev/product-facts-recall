@@ -1,6 +1,6 @@
 # Product Nutriscore and Recall Lookup 
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 # Description
 This website enables user to see if one of the food products they have has been recalled, other product details, and a nutriscore
