@@ -105,7 +105,7 @@ function loadRecallNews() {
             recallNewsList.appendChild(li);
         }
     })
-    .catch(function(err) {
+    .catch(err => {
         recallNewsList.innerHTML = "<li>Error loading recall news</li>";
         console.log("Error fetching recent FDA recalls:", err);
     });
