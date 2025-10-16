@@ -1,5 +1,4 @@
-# Product Nutriscore and Recall Lookup 
-
+# Product Info and Food Recall Alerts
 ![alt text](image-1.png)
 
 # Description
