@@ -21,6 +21,6 @@ Tech used:
 - Adding an image search or barcode scan option
 
 #### API Used
-- Open Food Facts :  https://www.fsis.usda.gov/fsis/api/recall/v/1 
-- FSIS Food Recall : https://world.openfoodfacts.net/api/v2/product/3017624010701?fields=product_name,nutriscore_data
+- Open Food Facts : https://world.openfoodfacts.net/api/v2/product/3017624010701?fields=product_name,nutriscore_data   
+- FSIS Food Recall : https://www.fsis.usda.gov/fsis/api/recall/v/1 
 
